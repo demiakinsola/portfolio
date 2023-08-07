@@ -22,11 +22,14 @@ const handleStateChange = (e) => {
  const handleSubmit = async (e) => {
    e.preventDefault();
    try {
-   const response = await fetch("http://localhost:5000/send", {
-      method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify({mailState})
-    })
+   const response = await fetch(
+     "https://demiakinsola-personal-portfolio.onrender.com/send",
+     {
+       method: "POST",
+       headers: { "Content-type": "application/json" },
+       body: JSON.stringify({ mailState }),
+     }
+   );
     
       const responseData = await response.json();
       console.log(responseData);
