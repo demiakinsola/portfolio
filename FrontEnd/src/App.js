@@ -112,7 +112,7 @@ const handleStateChange = (e) => {
             type="text"
             name="name"
             value={mailState.name}
-            placeholder="Your Name"
+            placeholder="Name"
             onChange={handleStateChange}
             required
           />
@@ -120,7 +120,7 @@ const handleStateChange = (e) => {
             className="inputs"
             type="email"
             name="email"
-            placeholder="Your Email Address"
+            placeholder="Email"
             value={mailState.email}
             onChange={handleStateChange}
             required
@@ -129,17 +129,17 @@ const handleStateChange = (e) => {
             className="inputs"
             type="text"
             name="subject"
-            placeholder="Mail Subject"
+            placeholder="Subject"
             value={mailState.subject}
             onChange={handleStateChange}
             required
           />
           <textarea
             className="textarea"
-            style={{ width: "380px", height: "200px" }}
+            style={{ height: "200px" }}
             type="textarea"
             name="message"
-            placeholder="Your Message"
+            placeholder="Message"
             required
             value={mailState.message}
             onChange={handleStateChange}

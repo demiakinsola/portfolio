@@ -5,7 +5,11 @@ const nodeMailer = require("nodemailer");
 const PORT = process.env.PORT || 8000;
 const cors = require("cors");
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://demiakinsola-my-personal-portfolio.onrender.com/",
+  })
+);
 
 //to parse urlencoded data
 app.use(express.urlencoded({ extended: false }));
