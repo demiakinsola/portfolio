@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body, #root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  padding: 2rem;
+  width: 100%;
+}
+.navbar-toggler {
+    background-color: black;
+}
+
+.container-fluid p{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: auto;
+    margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: black;
+}
+
+ul {
+  margin-left: 20rem;
+}
+
+li {
+  margin: 0 5rem 0;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+li:visited {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 50vw;
+}
+
+footer p {
+text-align: center;
+ font-weight: 600;
+ padding: 1.5rem;
+}
+
+.Introduction {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.Text {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.Column {
+  height: 300px;
+  
+}
+
+ .Column p {
+   text-align: center; 
+  margin-top: 10rem;
+  color: black;
+  padding: 1rem 0 1rem;
+}
+
+.Column p:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.Column a {
+    text-decoration: none;
+}
+
+.Contact {
+  height: 750px;
+  width: 100%;
+}
+
+
+.Projects {
+  width: 100%;
+}
+
+
+
+.Contact p {
+   font-size: 2rem;
+    font-weight: 500;
+    padding: 5rem;
+    margin-bottom: 0;
+}
+
+
+.Buttons {
+  margin-top: 0;
+}
+
+#but1 {
+  padding: 0.5rem 10.6rem 0.5rem;
+  margin-left: 3rem;
+  display: block;
+}
+
+button:hover {
+   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.inputs {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  padding: 0.5rem 6rem 0.5rem;
+}
+
+.textarea {
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width:990px) {
+  .Introduction {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+margin-left: 0;
+margin-right: 0;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+}
+
+img {
+  width: 100vw;
+}
+  .container-fluid p{
+  margin-left: 0;
+}
+
+.Text, .Contact p {
+  padding: 3rem;
+}
+
+
+.Buttons {
+  display: block;
+}
+
+
+
+#but1 {
+  padding: 0.5rem 10.6rem 0.5rem;
+   margin-bottom: 1rem;
+     margin-left: 3rem;
+}
+
+}
