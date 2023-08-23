@@ -1,2 +1,13 @@
-# portfolio
-A personal portfolio built using reactJS and nodeJS on the frontEnd and backEnd respectively.
+# About the Project
+
+A personal portfolio.
+
+## Built With
+
+- React.js
+- Node.js
+- CSS
+
+## Live Demo
+
+[https://demiakinsola-my-personal-portfolio.onrender.com/](https://demiakinsola-my-personal-portfolio.onrender.com/)
